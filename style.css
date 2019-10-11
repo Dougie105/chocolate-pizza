@@ -22,14 +22,13 @@ body{
   margin-block-end: 0%;
 }
 
-#bestblogtext{
+#bestblogtext {
   font-size: 12px;
   margin-block-start: 0%;
   margin-block-end: 0%;
   position: absolute;
   margin-top: 33px;
   margin-left: 43px;
-  font-family:
 }
 
 .socialshare{
@@ -48,29 +47,71 @@ body{
   display: inline-block;
 }
 
-.greybar{
-  background-color: blue;
-  clear: left;
+.greybar>img{
+  background: blue;
+  width: 960px;
+  height: 12px;
+  margin-top: 12px;
+  margin-bottom: 48px;
 }
 
 .title{
-  background-color: purple;
+  position: absolute;
+  width: 960px;
+  /* height: 50px; */
 }
 
-.content{
-  background-color: yellow;
+.title>h1 {
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+}
+
+.title>p {
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+  width: 300px;
+  font-size: 10px;
+  float: left;
+}
+
+.title>img {
+  float: right;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#pizza>img {
+  width: 960px;
+  clear: left;
+  margin-top: 90px;
+}
+
+.content>p {
+  text-indent: 2em;
 }
 
 .recipe{
-  background-color: green;
+  width: 960px;
+  height: 150px;
 }
 
-.left{
-  background-color: grey;
+#paper {
 }
 
-.right{
-  background-color: orange;
+li {
+  list-style-type: none;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 .vanessa{

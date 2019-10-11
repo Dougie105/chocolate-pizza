@@ -1,0 +1,86 @@
+body{
+  width: 960px;
+}
+
+.delicious{
+  width: 250px;
+  float: left;
+  height: 46px;
+  position: relative;
+}
+
+.delicious>img{
+  float: left;
+  padding: 0%;
+  margin: 0%;
+}
+
+#delishtext{
+  float: left;
+  font-size: 29.97px;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+}
+
+#bestblogtext{
+  font-size: 12px;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+  position: absolute;
+  margin-top: 33px;
+  margin-left: 43px;
+  font-family:
+}
+
+.socialshare{
+  width: 240px;
+  float: right;
+  margin-block-start: 10.5px;
+  margin-block-end: 0%;
+}
+
+.social{
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.share{
+  display: inline-block;
+}
+
+.greybar{
+  background-color: blue;
+  clear: left;
+}
+
+.title{
+  background-color: purple;
+}
+
+.content{
+  background-color: yellow;
+}
+
+.recipe{
+  background-color: green;
+}
+
+.left{
+  background-color: grey;
+}
+
+.right{
+  background-color: orange;
+}
+
+.vanessa{
+  background-color: pink;
+}
+
+button{
+  background-color: sienna;
+}
+
+footer{
+  background-color: hotpink;
+}

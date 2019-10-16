@@ -48,7 +48,7 @@ body{
 }
 
 .greybar>img{
-  background: blue;
+  background: gray;
   width: 960px;
   height: 12px;
   margin-top: 12px;
@@ -95,7 +95,14 @@ body{
   height: 150px;
 }
 
-#paper {
+.recipe>img{
+  position: absolute;
+  margin-left: 30px;
+  height: 300px;
+}
+
+.recipe>ul>li{
+  padding: 5px;
 }
 
 li {
@@ -108,11 +115,30 @@ li {
 
 .left {
   float: left;
+  position: absolute;
+  z-index: 10;
+  margin-left: 170px;
+  margin-top: 50px;
+  padding: 5px;
 }
 
 .right {
   float: right;
+  position: absolute;
+  z-index: 10;
+  margin-left: 470px;
+  margin-top: 50px;
+  padding: 5px;
 }
+
+.bottomGreyBar>img{
+    background: gray;
+    width: 960px;
+    height: 12px;
+    margin-top: 200px;
+    margin-bottom: 48px;
+    position: relative;
+  }
 
 .vanessa{
   background-color: pink;
